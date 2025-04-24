@@ -29,13 +29,16 @@ clone_repo() {
 }
 
 # Clone the repositories with error handling and directory creation
-clone_repo nvim ~/config
-clone_repo alacritty ~/config
-clone_repo fish ~/config
-clone_repo foot ~/config
-clone_repo WPs ~/Pictures
-clone_repo variety ~/config
-clone_repo fastfetch ~/config
+clone_repo nvim ~/config/nvim
+clone_repo alacritty ~/config/alacritty
+clone_repo fish ~/config/fish
+clone_repo foot ~/config/foot
+clone_repo WPs ~/Pictures/WPs
+clone_repo fastfetch ~/config/fastfetch
+clone_repo wpaperd-config ~/config/wpaperd
+clone_repo nwg-bar-configs ~/config/nwg-bar
+clone_repo wofi ~/config/wofi
+clone_repo nwg-drawer ~/config/nwg-drawer
 
 echo "System config cloning complete!"
 exit 0
